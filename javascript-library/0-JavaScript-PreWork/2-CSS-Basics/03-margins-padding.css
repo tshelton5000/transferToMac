@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+}
+
+.margins-padding {
+    border: 2px solid blue;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    padding: 0px 50px 0px 0px;
+}
+
+#margins-demo {
+    width: 400px;
+}
+
+#margin-experiment1 {
+    height: 40px;
+    background: blue;
+    border: 5px solid pink;
+    margin: 10px 50px 10px 10px;
+}
+
+#margin-experiment2 {
+    height: 40px;
+    background: blue;
+    border: 5px solid pink;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+}
+
+#margin-experiment3 {
+    height: 40px;
+    background:  blue;
+    border: 5px solid pink;
+    margin: 5px 10px 20px 0px;
+    padding: 10px 10px 10px 10px;
+}
+
+#margin-experiment4 {
+    height: 40px;
+    background: blue;
+    border: 5px solid pink;
+    margin: 5px 10px 20px 0px;
+    padding: 10px 10px 10px 10px;
+}
+
+.padding-class {
+    border: 2px solid red;
+    margin: 50px 50px 50px 50px;
+    padding: 20px 20px 20px 40px;
+}
+
+#padding-experiment {
+    border: 2px solid yellow;
+    margin: 50px 50px 50px 50px;
+    padding: 20px 20px 20px 20px;
+}

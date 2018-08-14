@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/javascript-library\\4-reactFundamentals\\javascript-practice\\1_classes.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/javascript-library\\4-reactFundamentals\\javascript-practice\\2_constructors.js"
+        }, 
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/javascript-library\\4-reactFundamentals\\javascript-practice\\3_extends.js"
+        }, 
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/javascript-library\\4-reactFundamentals\\javascript-practice\\4_super.js"
+        }, 
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/javascript-library\\4-reactFundamentals\\javascript-practice\\5_interpolation.js"
+        }, 
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/javascript-library\\4-reactFundamentals\\javascript-practice\\6_map.js"
+        }, 
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/javascript-library\\4-reactFundamentals\\javascript-practice\\7_filter.js"
+        }
+    ]
+}

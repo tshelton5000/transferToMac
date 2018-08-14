@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Playing with precedence</title>
+</head>
+<body>
+    <p id="test-id">
+        this text should be before the list
+        <ol>
+            <li>row 1</li>
+            <li>row 2</li>
+            <li>row 3</li>
+        </ol>
+        this text should be after the list
+    </p>
+
+    <style>
+        #test-id{
+            background-color: red;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+
+    <h2>Basic form with input field</h2>
+    <div class="form-one">
+        <form action="">
+            <p><label for="">Customer Name <input type="text"></label></p>
+            <p><label for="">Street Address: <input type="text"></label></p>
+            <p><label for="">City: <input type="text"></label></p>
+            <p><label for="">Area Code: <input type="text"></label></p>
+            <p><label for="">Telephone: <input type="text"></label></p>
+        </form>
+    </div>
+    <br>
+
+    <form action="">
+        <fieldset>
+            <legend>Customer Information</legend>
+            <p><label for="">Customer name: <input type="text"></label></p>
+            <p><label for="">Telephone: <input type="text"></label></p>
+            <p><label for="">E-mail address: <input type="text"></label></p>
+        </fieldset>
+    </form>
+    <br>
+
+    <form action="">
+        <fieldset>
+            <legend>Biggest Burritoes in the World!</legend>
+            <p><input type="radio" name="size" id="size1"><label for="size1">Humongous</label></p>
+            <p><input type="radio" name="size" id="size2"><label for="size2">Double Humongous</label></p>
+            <p><input type="radio" name="size" id="size3"><label for="size3">Triple Humongous</label></p>
+            <p><input type="radio" name=size id=size4><label for="size4">Just a Small, Please</label></p>
+        </fieldset>
+    </form>
+    <br>
+
+    <form action="">
+        <fieldset>
+            <legend>Fixins</legend>
+            <p><label for="fixins1"><input type="checkbox" id="fixins1">Sauteed Onions</label></p>
+            <p><label for="fixins2"><input type="checkbox" id="fixins2">Guacamole</label></p>
+            <p><label for="fixins3"><input type="checkbox" id="fixins3">Queso</label></p>
+            <p><label for="fixins4"><input type="checkbox" id="fixins4">Lettuce</label></p>
+            <p><label for="fixins5"><input type="checkbox" id="fixins5">Refried Beans</label></p>
+            <p><label for="fixins6"><input type="checkbox" id="fixins6">Rice</label></p>
+        </fieldset>
+    </form>
+    <br>
+
+    <form action="">
+        <fieldset>
+            <p><label for="">Preferred delivery time: <input type="time" min="11:00" max="21:00" step="900"></label></p>
+            <p><label for="">Delivery Instructions: <textarea name="" id="" cols="30" rows="100"></textarea></label></p>
+            <p><button>Submit Order</button></p>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
